@@ -1,0 +1,27 @@
+.Clock  {
+  display: flex;
+  margin: 25px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.mainClock {
+  display: flex;
+  width: 780px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: rgb(253, 253, 253);
+  background-color: rgb(163, 11, 42);
+  justify-content: center;
+}
+
+.selectTime {
+  display: flex;
+  margin: 18px;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.smallFont {
+  font-size: 20px;
+}

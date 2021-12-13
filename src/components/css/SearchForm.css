@@ -1,0 +1,56 @@
+.sFormBody {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sFirstLine {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sSecondLine {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sFLSection1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+}
+.sFLSection2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 27%;
+}
+
+.sInput {
+  width: 100px;
+  height: 20px;
+}
+
+.sLongInput {
+  width: 335px;
+  margin-left: px;
+}
+
+.searchButton {
+  width: 50px;
+  height: 30px;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(163, 11, 42);
+  border: unset;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.searchButton:hover {
+  background-color: rgb(189, 99, 117);;
+}

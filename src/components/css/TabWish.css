@@ -1,0 +1,55 @@
+.wishBody {
+  width: 1000px;
+  border: 0.2px solid rgba(248, 242, 242, 0.945);
+  background-color: rgba(248, 242, 242, 0.945);
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  table-layout:fixed;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.courseField {
+  background-color: rgb(248, 187, 187);
+}
+
+.plusIcon {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  color: rgb(163, 11, 42);
+  width: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.plusIcon:hover {
+  color: rgb(189, 99, 117);
+  cursor: pointer;
+}
+
+.fromEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+th {
+  border-right: 0.1px solid rgb(209, 167, 167);
+}
+
+th:last-of-type {
+  border-right: 0px;
+}
+
+td {
+  word-break: break-all;
+  padding: 10px;
+}
+
+td:last-of-type {
+  border-right: 0px;
+}

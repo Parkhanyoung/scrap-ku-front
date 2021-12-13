@@ -1,0 +1,18 @@
+.SCTable {
+  font-size: 12px;
+  table-layout:fixed;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.SCcourseField {
+  background-color: rgb(248, 187, 187);
+}
+
+th {
+  height: 20px;
+}
+
+td {
+  height: 10px;
+}
